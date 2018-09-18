@@ -2,9 +2,14 @@
 //danny forero
 // sept 17 practice assignment question #1
 /*
-2. Write a function that has two arguments and returns the higher of the two.  
-The function should return 'Out of range' if the values are not in the range 40 - 60.  
-Your code should log the result to the console.
+You can write code in Node.js that allows the user to enter a value but it's a bit complex at this stage.  
+So for these exercises, instead of prompting the user for input, you can just declare variables at the top of the file.  
+For example, number 1 compares two numbers so you can declare them like this:
+let temp = 35;
+let  scale = 'C';
+1. Write a function that takes two arguments.  The first is a temperature and the second is the toScale. 
+If the toScale argument is C, convert the temperature from Fahrenheit to Celsius.  
+If the toScale is F, convert the temperature from Celsius to Fahrenheit.  
 */
 
 //Function to convert from C->F or assume conversion from F->C
