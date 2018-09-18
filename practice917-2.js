@@ -1,7 +1,7 @@
 
 //bus adm 810 web app development
 //danny forero
-// sept 17 practice assignment question #2
+//sept 17 practice assignment question #2
 /*
 2. Write a function that has two arguments and returns the higher of the two.  
 The function should return 'Out of range' if the values are not in the range 40 - 60.  
@@ -30,18 +30,21 @@ let  value2 = 55;
 console.log(higherValue(value1,value2));
 
 //compare 55 and 45 
-let value3 = 55;
-let  value4 = 45;
-console.log(higherValue(value3,value4));
+value1 = 55;
+value2 = 45;
+console.log(higherValue(value1,value2));
 
 //compare 25 and 35 
-let value5 = 25;
-let  value6 = 35;
-console.log(higherValue(value5,value6));
-
+value1 = 25;
+value2 = 35;
+console.log(higherValue(value1,value2));
 
 //compare 55 and 65 
-let value7 = 55;
-let  value8 = 65;
-console.log(higherValue(value7,value8));
+value1 = 55;
+value2 = 65;
+console.log(higherValue(value1,value2));
 
+//compare 25 and 60 
+value1 = 25;
+value2 = 60;
+console.log(higherValue(value1,value2));
