@@ -2,9 +2,10 @@
 //danny forero
 // sept 17 practice assignment question #1
 /*
-2. Write a function that has two arguments and returns the higher of the two.  
-The function should return 'Out of range' if the values are not in the range 40 - 60.  
-Your code should log the result to the console.
+1. Write a function that takes two arguments.  
+The first is a temperature and the second is the toScale. 
+If the toScale argument is C, convert the temperature from Fahrenheit to Celsius. 
+If the toScale is F, convert the temperature from Celsius to Fahrenheit. 
 */
 
 //Function to convert from C->F or F->C
@@ -17,13 +18,12 @@ function ConvertTemp(inTemp, inScale) {
             newTemp = (inTemp - 32) * 0.55555556
             newScale = "C"
     }   else { return( inScale + " is an invalid scale, please use C or F")
-
     };
-
     return(inTemp + inScale + " = " + newTemp + newScale);
 } ;
     
-//Call Conversion function three times for three different scenarios
+
+//Mainline calls to Conversion function multiple times with different input each time
 
 //Convert 35C to F
 let temp = 35;
