@@ -28,24 +28,24 @@ function parseParts(inString) {
     return(inCalculationX);
     } ;
     
-    //Call parseParts function to break down the expression and evaluate it                  
-    
-    //evaluate "5 + 4"
-    testString = "5 + 4";
-    console.log( "the testString is '" + testString + "'");
-    console.log( "the results is " + parseParts(testString));
+//Call parseParts function to break down the expression and evaluate it                  
 
-     //evaluate "60 / 5"
-     testString = "60 / 5";
-     console.log( "the testString is '" + testString + "'");
-     console.log( "the results is " + parseParts(testString)); 
+//evaluate "5 + 4"
+testString = "5 + 4";
+console.log( "the testString is '" + testString + "'");
+console.log( "the results is " + parseParts(testString));
 
-     //evaluate "26 - 15"
-    testString = "26 - 15";
-    console.log( "the testString is '" + testString + "'");
-    console.log( "the results is " + parseParts(testString));
+//evaluate "60 / 5"
+testString = "60 / 5";
+console.log( "the testString is '" + testString + "'");
+console.log( "the results is " + parseParts(testString)); 
 
-     //evaluate "6 * 7"
-     testString = "6 * 7";
-     console.log( "the testString is '" + testString + "'");
-     console.log( "the results is " + parseParts(testString)); 
+//evaluate "26 - 15"
+testString = "26 - 15";
+console.log( "the testString is '" + testString + "'");
+console.log( "the results is " + parseParts(testString));
+
+//evaluate "6 * 7"
+testString = "6 * 7";
+console.log( "the testString is '" + testString + "'");
+console.log( "the results is " + parseParts(testString)); 
