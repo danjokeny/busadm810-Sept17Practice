@@ -1,6 +1,6 @@
 //bus adm 810 web app development
 //danny forero
-// sept 17 practice assignment question #3
+//sept 17 practice assignment question #3
 /*
 3. Write a function that takes a string like this:
 let foo = "5 + 4";
@@ -23,7 +23,7 @@ function parseParts(inString) {
     console.log('Value1 = ' + inValue1);
     console.log('Operation = ' +inOp);
     console.log('Value2 = ' + inValue2);
-    inCalculationN =  parseInt(inValue1,10) + inOp + parseInt(inValue2,10)  ;
+    inCalculationN =  parseInt(inValue1,10) + inOp + parseInt(inValue2,10);
     inCalculationX =  eval(inCalculationN);
     return(inCalculationX);
 } ;
