@@ -1,6 +1,6 @@
 //bus adm 810 web app development
 //danny forero
-// sept 17 practice assignment question #4
+//sept 17 practice assignment question #4
 /*
 4. Write a function that takes three arguments: a longer string and two shorter strings.  
 The function should replace the instances of the first short string in the longer string 
