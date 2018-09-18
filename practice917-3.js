@@ -26,7 +26,7 @@ function parseParts(inString) {
     inCalculationN =  parseInt(inValue1,10) + inOp + parseInt(inValue2,10)  ;
     inCalculationX =  eval(inCalculationN);
     return(inCalculationX);
-    } ;
+} ;
     
 //Call parseParts function to break down the expression and evaluate it                  
 
