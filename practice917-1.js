@@ -7,6 +7,7 @@ The first is a temperature and the second is the toScale.
 If the toScale argument is C, convert the temperature from Fahrenheit to Celsius. 
 If the toScale is F, convert the temperature from Celsius to Fahrenheit. 
 */
+//testing Git self
 
 //Function to convert from C->F or F->C
 //anything in scale other than C or F is returned as an error message
